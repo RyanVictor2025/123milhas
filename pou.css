@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* 1 */
+.topo{
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.topo h1, .links{
+    display: inline;
+}
+.topo h1{
+    padding-bottom: 20px;
+}
+.topo a{
+    color:rgba(47, 180, 96);
+    text-decoration: none;
+}
+.topo h1 , span{
+    font-family: sans-serif;
+}
+.links p {
+    display: inline;
+    justify-content: flex-end;
+    position: absolute;
+    right: 100px;
+    top: 34px;
+}
+.links a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.topo h1, a{
+    font-family: sans-serif;
+}
+/* 2 */
+.banner{
+    background-image: url(./assets/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 13% 0;
+}
+.container1{
+    background-color: rgb(42, 163, 135, .5);
+    margin: 0 auto;
+    padding: 100px 90px;
+    width: 20%;
+    box-shadow: 0 0 4px 4px rgb(42, 163, 135, .5);
+}
+.conteudo h1, p{
+    text-align: center;
+}   
+.conteudo p{
+    margin-top: 50px;
+    margin-bottom: -50px;
+    margin-left: -30px;
+    font-size: 22px;
+}
+.conteudo h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.conteudo h1, p{
+    text-align: center;
+}
+.solteiros{
+    padding: 200px;
+    margin-top: -100px;
+}
+.solteiros h1{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+.solteiros p{
+    font-size: 20px;
+    line-height: 2.8;
+    width: 50%;
+}
+.solteiros p , h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.teste ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+    grid-gap: 10px; /* Espaço entre os itens */
+    padding: 0;
+}
+.teste li {
+    margin-left: 100px; /* Remova a margem padrão dos itens da lista */
+}
+/* 3 */
+.casal{
+    padding: 200px;
+    margin-top: -100px;
+}
+.casal h1{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+.casal p{
+    font-size: 20px;
+    line-height: 2.8;
+    width: 50%;
+}
+.casal p , h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.teste ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+    grid-gap: 10px; /* Espaço entre os itens */
+    padding: 0;
+}
+.teste li {
+    margin-left: 100px; /* Remova a margem padrão dos itens da lista */
+}
+/* 4 */
+.familia{
+    padding: 200px;
+    margin-top: -100px;
+}
+.familia h1{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+.familioa p{
+    font-size: 20px;
+    line-height: 2.8;
+    width: 50%;
+}
+.familia p , h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.imgsol {
+    display: flex; /* Define o contêiner das imagens como flexível */
+    justify-content: space-between; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha quando não couberem na largura */
+}
+.imgsol img {
+    max-width: 30%; /* Defina o tamanho máximo para as imagens (ajuste conforme necessário) */
+    margin-bottom: 20px; /* Espaço entre as imagens */
+}
+.rodape{
+    background-color: rgb(47, 180, 96);
+    width: 100%;
+    padding-top: 10px;
+    
+    
+}
+
+.sub-roda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.sub-roda div {
+    display: flex;
+    align-items: center;
+}
+.sub-roda img {
+    width: 30px;
+}
+.sub-roda h1{
+    text-align: left;
+    margin-left: 70px;
+    width:300px;
+    font-size: 25px ;
+}
+.sub-roda p{
+    font-size: 20px;
+}
+
+/* 7.1 */
+.rodape{
+    background-color: green;
+    width: 100%;
+    padding-top: 10px;
+    
+    
+}
+
+.sub-roda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 100px;
+}
+.sub-roda div {
+    display: flex;
+    align-items: center;
+}
+
+.sub-roda img {
+    width: 30px;
+}
+
+.sub-roda h1{
+    text-align: left;
+    margin-left: 30px;
+    width:300px;
+    font-size: 28px ;
+}
+.sub-roda p{
+    font-size: 20px;
+}
+.sub-roda a{
+    text-decoration: none;
+    color: white;
+}
+/* 7.1 */
+.roda-fim hr{
+    width: 100%;
+}
+.roda-fim h3{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    font-family: sans-serif
+}

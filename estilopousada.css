@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* 1 */
+.topo{
+    position: fixed;
+    width: 100%;
+    background-color: white ;
+    padding: 30px;
+}
+.topo h1, .links{
+    display: inline;
+}
+.topo h1{
+    padding-bottom: 20px;
+}
+.topo a{
+    color: green;
+    text-decoration: none;
+}
+.topo h1 , span{
+    font-family: sans-serif;
+}
+.links p {
+    display: inline;
+    justify-content: flex-end;
+    position: absolute;
+    right: 60px;
+    top: 34px;
+}
+.links a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.topo h1, a{
+    font-family: sans-serif;
+}
+/* 2 */
+.banner{
+    background-image: url(./assets/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 13% 0;
+}
+.container1{
+    background-color: rgb(42, 163, 135, .5);
+    margin: 0 auto;
+    padding: 100px 90px;
+    width: 20%;
+    box-shadow: 0 0 4px 4px rgb(42, 163, 135, .5);
+}
+
+.conteudo h1, p{
+    text-align: center;
+}
+/* 3 */
+.bemvindo{
+    padding: 200px;
+}
+.bemvindo h1{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+.bemvindo p{
+    font-size: 20px;
+    line-height: 2.8;
+    width: 50%;
+}
+.bemvindo p , h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+/* 4 */
+.imgs-quartos{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.imgs img{
+    width: 400px;
+    box-shadow: 0 0 4px 4px #B35A23;
+}
+.imgs-quartos p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+}
+.imgs a{
+    text-decoration: none;
+    color: #B35A23;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+/* 5 */
+.rota{
+    padding: 150px 0 0 0;
+}
+.rota h1{
+    padding-bottom: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.rota p{
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+.rota p, h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+/* 6 */
+.sobre{
+    width: 100%;
+}
+.sobre{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin: 120px 0 130px 0;
+}
+.sobre h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.msg1 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.msg1 h1 ,p{
+    font-family: sans-serif;
+}
+/* 6.1 */
+.container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.container .msg2 {
+    flex: 1;
+    text-align: left;
+    padding: 10px; 
+}
+.msg2 h1{
+    margin-bottom: 40px;
+}
+.msg2 p {
+    font-size: 20px;
+}
+.msg2 h1,p{
+    text-align: justify;
+    width: 500px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.container .img2,
+.container .img3 {
+    flex: 1;
+    width: calc(50% - 20px); 
+    text-align: center; 
+}
+.container .img2 img,
+.container .img3 img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 4px 4px #B35A23;
+}
+/* 7 */
+.rodape{
+    background-color: green;
+    width: 100%;
+    padding-top: 10px;
+    
+    
+}
+
+.sub-roda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 100px;
+}
+.sub-roda div {
+    display: flex;
+    align-items: center;
+}
+
+.sub-roda img {
+    width: 30px;
+}
+
+.sub-roda h1{
+    text-align: left;
+    margin-left: 30px;
+    width:300px;
+    font-size: 28px ;
+}
+.sub-roda p{
+    font-size: 20px;
+}
+.sub-roda a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 7.1 */
+.roda-fim hr{
+    width: 100%;
+}
+.roda-fim h3{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    font-family: sans-serif
+}
